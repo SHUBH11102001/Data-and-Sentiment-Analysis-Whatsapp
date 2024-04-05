@@ -18,7 +18,7 @@ if uploaded_file is not None:
     data= bytes_data.decode("utf-8")
     # st.text(data)
     df=preprocessor.preprocess(data)
-    d: DataFrame | None = df.copy()
+    d = df.copy()
 
     # Importing SentimentIntensityAnalyzer class from "nltk.sentiment.vader"
     from nltk.sentiment.vader import SentimentIntensityAnalyzer
