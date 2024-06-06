@@ -55,15 +55,7 @@ if uploaded_file is not None:
     # Insert "Overall" at index 0
     user_list.insert(0, "Overall")
 
-
-
-
-
-
-
-
-
-
+    
     # st.dataframe(df)
     user_list = df['user'].unique().tolist()
     user_list.remove('group_notification')
